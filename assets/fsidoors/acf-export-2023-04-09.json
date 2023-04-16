@@ -1,0 +1,2146 @@
+[
+    {
+        "key": "group_61aa518c64c1e",
+        "title": "Reports - Building Info",
+        "fields": [
+            {
+                "key": "field_61aa51af1175d",
+                "label": "Address",
+                "name": "address",
+                "type": "textarea",
+                "instructions": "Building number and Street",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "progresscheck": 1,
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_61aa51da1175e",
+                "label": "City",
+                "name": "city",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61aa51e81175f",
+                "label": "State",
+                "name": "state",
+                "type": "select",
+                "instructions": "Use 2 letter USPS state code",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "choices": {
+                    "DB": "Dubai",
+                    "AL": "Alabama",
+                    "AK": "Alaska",
+                    "AZ": "Arizona",
+                    "AR": "Arkansas",
+                    "CA": "California",
+                    "CO": "Colorado",
+                    "CT": "Connecticut",
+                    "DE": "Delaware",
+                    "FL": "Florida",
+                    "GA": "Georgia",
+                    "HI": "Hawaii",
+                    "ID": "Idaho",
+                    "IL": "Illinois",
+                    "IN": "Indiana",
+                    "IA": "Iowa",
+                    "KS": "Kansas",
+                    "KY": "Kentucky",
+                    "LA": "Louisiana",
+                    "ME": "Maine",
+                    "MD": "Maryland",
+                    "MA": "Massachusetts",
+                    "MI": "Michigan",
+                    "MN": "Minnesota",
+                    "MS": "Mississippi",
+                    "MO": "Missouri",
+                    "MT": "Montana",
+                    "NE": "Nebraska",
+                    "NV": "Nevada",
+                    "NH": "New Hampshire",
+                    "NJ": "New Jersey",
+                    "NM": "New Mexico",
+                    "NY": "New York",
+                    "NC": "North Carolina",
+                    "ND": "North Dakota",
+                    "OH": "Ohio",
+                    "OK": "Oklahoma",
+                    "OR": "Oregon",
+                    "PA": "Pennsylvania",
+                    "RI": "Rhode Island",
+                    "SC": "South Carolina",
+                    "SD": "South Dakota",
+                    "TN": "Tennessee",
+                    "TX": "Texas",
+                    "UT": "Utah",
+                    "VT": "Vermont",
+                    "VA": "Virginia",
+                    "WA": "Washington",
+                    "WV": "West Virginia",
+                    "WI": "Wisconsin",
+                    "WY": "Wyoming"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_61aa522e11760",
+                "label": "Zip Code",
+                "name": "zip_code",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "default_value": 11201,
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61aa524b11761",
+                "label": "Super's Name",
+                "name": "supers_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_61aa527711763",
+                "label": "Date of Inspection",
+                "name": "date_of_inspection",
+                "type": "date_picker",
+                "instructions": "Enter the date as written month (no abbreviations) date, year. EG - June 6, 2014",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "display_format": "m\/d\/Y",
+                "return_format": "F j, Y",
+                "first_day": 0
+            },
+            {
+                "key": "field_61aa52a911764",
+                "label": "NYFC Examiner",
+                "name": "nyfc_examiner",
+                "type": "user",
+                "instructions": "Enter your name the way you would like it to appear on the report.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "role": "",
+                "allow_null": 0,
+                "multiple": 0,
+                "return_format": "array"
+            },
+            {
+                "key": "field_61ba0ae8169f6",
+                "label": "NYFC Examiner Signature",
+                "name": "nyfc_examiner_signature",
+                "type": "image",
+                "instructions": "Enter your name the way you would like it to appear on the report.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_61aa52df11765",
+                "label": "Do you want to add notes?",
+                "name": "do_you_want_to_add_notes",
+                "type": "button_group",
+                "instructions": "Select yes to enter any notes or comments concerning your inspection.\r\n\r\nThese <strong>will not<\/strong> appear in the PDF report",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "allow_null": 1,
+                "default_value": "no",
+                "layout": "horizontal",
+                "return_format": "value"
+            },
+            {
+                "key": "field_61aa52fa11766",
+                "label": "Notes",
+                "name": "notes",
+                "type": "textarea",
+                "instructions": "Enter any notes concerning your inspection. These will not appear in the PDF report.\r\n\r\n<strong>Please date all entries<\/strong>",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_61aa52df11765",
+                            "operator": "==",
+                            "value": "yes"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "reports"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_61afe667b0c96",
+        "title": "Template Report",
+        "fields": [
+            {
+                "key": "field_61afe67815f28",
+                "label": "Flexible Content",
+                "name": "flexible_content",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "layout_61afe6889e866": {
+                        "key": "layout_61afe6889e866",
+                        "name": "html",
+                        "label": "HTML",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_61b240f7f9043",
+                                "label": "Margin Top",
+                                "name": "margin_top",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 30,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b240edf9042",
+                                "label": "Margin Right",
+                                "name": "margin_right",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 30,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b24103f9044",
+                                "label": "Margin Bottom",
+                                "name": "margin_bottom",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 30,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b24019f9041",
+                                "label": "Margin Left",
+                                "name": "margin_left",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 30,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61afe69b15f29",
+                                "label": "HTML Content",
+                                "name": "html_content",
+                                "type": "wysiwyg",
+                                "instructions": "To enable Search and Replace - add the selected field names inside curly cues.  For example - {address}.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "admin_only": 0,
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_61b2480beee19",
+                                "label": "Search and Replace",
+                                "name": "fields",
+                                "type": "select",
+                                "instructions": "By selecting these fields you can make it so the text you entered in the HTML field is searched and replaced with these dynamic values.  Just add them to your text like this:  { exmple_field }.  Click the selected field to copy the text to the clipboard.\r\n\r\nThis will not work for image fields or repeaters.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "admin_only": 0,
+                                "choices": {
+                                    "0": "Select",
+                                    "address": "address",
+                                    "city": "city",
+                                    "state": "state",
+                                    "zip_code": "zip_code",
+                                    "supers_name": "supers_name",
+                                    "date_of_inspection": "date_of_inspection",
+                                    "nyfc_examiner": "nyfc_examiner",
+                                    "nyfc_examiner_signature": "nyfc_examiner_signature",
+                                    "do_you_want_to_add_notes": "do_you_want_to_add_notes",
+                                    "notes": "notes",
+                                    "building_exterior_images": "building_exterior_images",
+                                    "building_exterior_comments": "building_exterior_comments",
+                                    "building_exterior_images_2": "building_exterior_images_2",
+                                    "doors": "doors"
+                                },
+                                "default_value": [],
+                                "allow_null": 1,
+                                "multiple": 1,
+                                "ui": 1,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_61b234e68fd19": {
+                        "key": "layout_61b234e68fd19",
+                        "name": "image_block",
+                        "label": "Image Block",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_61b234e68fd1a",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "This is mainly used for full page images that get added at the end of the PDF",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": ""
+                            },
+                            {
+                                "key": "field_61b486c01ebe6",
+                                "label": "Any or all conditions must be true?",
+                                "name": "any_or_all_conditions_must_be_true",
+                                "type": "button_group",
+                                "instructions": "Select \"All\" if all conditions must be true.\r\nSelect \"Any\" if any conditions can be true.",
+                                "required": 1,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_61b41bd7f8eeb",
+                                            "operator": "!=empty"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "any": "Any",
+                                    "all": "All"
+                                },
+                                "allow_null": 0,
+                                "default_value": "",
+                                "layout": "horizontal",
+                                "return_format": "value"
+                            },
+                            {
+                                "key": "field_61b41bd7f8eeb",
+                                "label": "Conditions",
+                                "name": "conditions",
+                                "type": "repeater",
+                                "instructions": "Add conditions for showing the selected image if needed.",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_61afe67815f28",
+                                            "operator": "!=empty"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "admin_only": 0,
+                                "collapsed": "",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "table",
+                                "button_label": "",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_61b41bfef8eec",
+                                        "label": "Fields",
+                                        "name": "fields",
+                                        "type": "select",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "admin_only": 0,
+                                        "choices": {
+                                            "0": "Select",
+                                            "address": "address",
+                                            "city": "city",
+                                            "state": "state",
+                                            "zip_code": "zip_code",
+                                            "supers_name": "supers_name",
+                                            "date_of_inspection": "date_of_inspection",
+                                            "nyfc_examiner": "nyfc_examiner",
+                                            "nyfc_examiner_signature": "nyfc_examiner_signature",
+                                            "do_you_want_to_add_notes": "do_you_want_to_add_notes",
+                                            "notes": "notes",
+                                            "building_exterior_images": "building_exterior_images",
+                                            "building_exterior_comments": "building_exterior_comments",
+                                            "building_exterior_images_2": "building_exterior_images_2",
+                                            "doors": "doors"
+                                        },
+                                        "default_value": false,
+                                        "allow_null": 0,
+                                        "multiple": 0,
+                                        "ui": 1,
+                                        "ajax": 0,
+                                        "return_format": "value",
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_61b41c08f8eed",
+                                        "label": "Value",
+                                        "name": "value",
+                                        "type": "button_group",
+                                        "instructions": "Select the value that must be true for this condition.",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "admin_only": 0,
+                                        "choices": {
+                                            "yes": "Yes",
+                                            "no": "No",
+                                            "na": "NA"
+                                        },
+                                        "allow_null": 0,
+                                        "default_value": "",
+                                        "layout": "horizontal",
+                                        "return_format": "value"
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_61b28021ab62f": {
+                        "key": "layout_61b28021ab62f",
+                        "name": "form_results",
+                        "label": "Form Results",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_61b343b700074",
+                                "label": "Margin Top",
+                                "name": "margin_top",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 0,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b343ad00073",
+                                "label": "Margin Right",
+                                "name": "margin_right",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 0,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b343d400075",
+                                "label": "Margin Bottom",
+                                "name": "margin_bottom",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "admin_only": 0,
+                                "default_value": 30,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b3439e00072",
+                                "label": "Margin Left",
+                                "name": "margin_left",
+                                "type": "number",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "25",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": 0,
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "px",
+                                "min": 0,
+                                "max": 100,
+                                "step": 10
+                            },
+                            {
+                                "key": "field_61b33aa249a69",
+                                "label": "Section Title",
+                                "name": "section_title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "admin_only": 0,
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_61ba1cf35e736",
+                                "label": "Select Image Field",
+                                "name": "image_field",
+                                "type": "select",
+                                "instructions": "Select a field if you want images to show at the top of this section.",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_61afe67815f28",
+                                            "operator": "!=empty"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "0": "Select",
+                                    "building_exterior_images": "building_exterior_images",
+                                    "building_exterior_images_2": "building_exterior_images_2"
+                                },
+                                "default_value": false,
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "return_format": "value",
+                                "ajax": 0,
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_61f2e5e99de01",
+                                "label": "Select Image Field 2",
+                                "name": "image_field_2",
+                                "type": "select",
+                                "instructions": "Select a field if you want images to show at the bottom of this section.",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_61afe67815f28",
+                                            "operator": "!=empty"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "0": "Select",
+                                    "building_exterior_images": "building_exterior_images",
+                                    "building_exterior_images_2": "building_exterior_images_2"
+                                },
+                                "default_value": false,
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "return_format": "value",
+                                "ajax": 0,
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_61b39002d6540",
+                                "label": "Alternate Output",
+                                "name": "alternate_output",
+                                "type": "text",
+                                "instructions": "This text will show if no other text shows.  Leave blank if you want nothing to show.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "No violations were found.",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_62554f9aad50b",
+                                "label": "Is this a repeater?",
+                                "name": "is_repeater",
+                                "type": "true_false",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "default_value": 0,
+                                "ui": 0,
+                                "ui_on_text": "",
+                                "ui_off_text": ""
+                            },
+                            {
+                                "key": "field_62554fcbad50c",
+                                "label": "Repeater name",
+                                "name": "repeater_name",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_62554f9aad50b",
+                                            "operator": "==",
+                                            "value": "1"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_61b335aaea25d",
+                                "label": "Section",
+                                "name": "section",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_61c0a12d7db44",
+                                            "operator": "==",
+                                            "value": "1"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "collapsed": "field_61b3373bea261",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "block",
+                                "button_label": "Add Section",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_61b3373bea261",
+                                        "label": "Text Result",
+                                        "name": "text_result",
+                                        "type": "textarea",
+                                        "instructions": "If all the conditions created are true, this text will show.  To enable Search and Replace - add the selected field names inside curly cues.  For example - {address}.",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "100",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": 3,
+                                        "new_lines": "br"
+                                    },
+                                    {
+                                        "key": "field_61b33c86f49d8",
+                                        "label": "Search and Replace",
+                                        "name": "fields",
+                                        "type": "select",
+                                        "instructions": "Select form elements that you'd llike to use search and replace with. Click the selected field to copy the text to the clipboard.",
+                                        "required": 0,
+                                        "conditional_logic": [
+                                            [
+                                                {
+                                                    "field": "field_62554f9aad50b",
+                                                    "operator": "!=",
+                                                    "value": "1"
+                                                }
+                                            ]
+                                        ],
+                                        "wrapper": {
+                                            "width": "100",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "choices": {
+                                            "0": "Select",
+                                            "address": "address",
+                                            "city": "city",
+                                            "state": "state",
+                                            "zip_code": "zip_code",
+                                            "supers_name": "supers_name",
+                                            "date_of_inspection": "date_of_inspection",
+                                            "nyfc_examiner": "nyfc_examiner",
+                                            "nyfc_examiner_signature": "nyfc_examiner_signature",
+                                            "do_you_want_to_add_notes": "do_you_want_to_add_notes",
+                                            "notes": "notes",
+                                            "building_exterior_images": "building_exterior_images",
+                                            "building_exterior_comments": "building_exterior_comments",
+                                            "building_exterior_images_2": "building_exterior_images_2",
+                                            "doors": "doors"
+                                        },
+                                        "default_value": [],
+                                        "allow_null": 0,
+                                        "multiple": 1,
+                                        "ui": 1,
+                                        "ajax": 0,
+                                        "return_format": "value",
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_625553da1b64e",
+                                        "label": "Search and Replace",
+                                        "name": "fields_doors",
+                                        "type": "select",
+                                        "instructions": "Select form elements that you'd llike to use search and replace with. Click the selected field to copy the text to the clipboard.",
+                                        "required": 0,
+                                        "conditional_logic": [
+                                            [
+                                                {
+                                                    "field": "field_62554fcbad50c",
+                                                    "operator": "==contains",
+                                                    "value": "doors"
+                                                }
+                                            ]
+                                        ],
+                                        "wrapper": {
+                                            "width": "100",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "choices": {
+                                            "0": "Select",
+                                            "type": "type",
+                                            "stairway_letter": "stairway_letter",
+                                            "stairway_floor": "stairway_floor",
+                                            "door_location": "door_location",
+                                            "self_closing_required": "self_closing_required",
+                                            "door_closer_type": "door_closer_type",
+                                            "door_closer_other": "door_closer_other",
+                                            "does_self_closing_door_operate_properly": "does_self_closing_door_operate_properly",
+                                            "deficiencies_found": "deficiencies_found",
+                                            "deficiencies_other": "deficiencies_other",
+                                            "is_fdny_sign_required": "is_fdny_sign_required",
+                                            "is_fdny_sign_present": "is_fdny_sign_present",
+                                            "what_is_the_required_sign": "what_is_the_required_sign",
+                                            "image": "image",
+                                            "image_caption": "image_caption"
+                                        },
+                                        "default_value": [],
+                                        "allow_null": 0,
+                                        "multiple": 1,
+                                        "ui": 1,
+                                        "ajax": 0,
+                                        "return_format": "value",
+                                        "placeholder": ""
+                                    },
+                                    {
+                                        "key": "field_61b336fbea260",
+                                        "label": "Conditions",
+                                        "name": "conditions",
+                                        "type": "repeater",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "100",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "collapsed": "",
+                                        "min": 0,
+                                        "max": 0,
+                                        "layout": "table",
+                                        "button_label": "Add Condtion",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_61b335c2ea25e",
+                                                "label": "Field",
+                                                "name": "fields",
+                                                "type": "select",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": [
+                                                    [
+                                                        {
+                                                            "field": "field_62554f9aad50b",
+                                                            "operator": "!=",
+                                                            "value": "1"
+                                                        }
+                                                    ]
+                                                ],
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "choices": {
+                                                    "0": "Select",
+                                                    "address": "address",
+                                                    "city": "city",
+                                                    "state": "state",
+                                                    "zip_code": "zip_code",
+                                                    "supers_name": "supers_name",
+                                                    "date_of_inspection": "date_of_inspection",
+                                                    "nyfc_examiner": "nyfc_examiner",
+                                                    "nyfc_examiner_signature": "nyfc_examiner_signature",
+                                                    "do_you_want_to_add_notes": "do_you_want_to_add_notes",
+                                                    "notes": "notes",
+                                                    "building_exterior_images": "building_exterior_images",
+                                                    "building_exterior_comments": "building_exterior_comments",
+                                                    "building_exterior_images_2": "building_exterior_images_2",
+                                                    "doors": "doors"
+                                                },
+                                                "default_value": false,
+                                                "allow_null": 0,
+                                                "multiple": 0,
+                                                "ui": 1,
+                                                "ajax": 0,
+                                                "return_format": "value",
+                                                "placeholder": ""
+                                            },
+                                            {
+                                                "key": "field_6255530f0edbb",
+                                                "label": "Fields",
+                                                "name": "fields_doors",
+                                                "type": "select",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": [
+                                                    [
+                                                        {
+                                                            "field": "field_62554fcbad50c",
+                                                            "operator": "==",
+                                                            "value": "doors"
+                                                        }
+                                                    ]
+                                                ],
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "choices": {
+                                                    "0": "Select",
+                                                    "type": "type",
+                                                    "stairway_letter": "stairway_letter",
+                                                    "stairway_floor": "stairway_floor",
+                                                    "door_location": "door_location",
+                                                    "self_closing_required": "self_closing_required",
+                                                    "door_closer_type": "door_closer_type",
+                                                    "door_closer_other": "door_closer_other",
+                                                    "does_self_closing_door_operate_properly": "does_self_closing_door_operate_properly",
+                                                    "deficiencies_found": "deficiencies_found",
+                                                    "deficiencies_other": "deficiencies_other",
+                                                    "is_fdny_sign_required": "is_fdny_sign_required",
+                                                    "is_fdny_sign_present": "is_fdny_sign_present",
+                                                    "what_is_the_required_sign": "what_is_the_required_sign",
+                                                    "image": "image",
+                                                    "image_caption": "image_caption"
+                                                },
+                                                "default_value": false,
+                                                "allow_null": 0,
+                                                "multiple": 0,
+                                                "ui": 0,
+                                                "return_format": "value",
+                                                "ajax": 0,
+                                                "placeholder": ""
+                                            },
+                                            {
+                                                "key": "field_61b335e9ea25f",
+                                                "label": "Value",
+                                                "name": "value",
+                                                "type": "button_group",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "choices": {
+                                                    "yes": "Yes",
+                                                    "no": "No",
+                                                    "na": "NA",
+                                                    "__hav__": "Has any value",
+                                                    "under construction": "Under Construction",
+                                                    "other": "other"
+                                                },
+                                                "allow_null": 0,
+                                                "default_value": "",
+                                                "layout": "horizontal",
+                                                "return_format": "value"
+                                            },
+                                            {
+                                                "key": "field_61bbaf2836298",
+                                                "label": "Value \/ Other",
+                                                "name": "value__other",
+                                                "type": "text",
+                                                "instructions": "Must be accurate",
+                                                "required": 0,
+                                                "conditional_logic": [
+                                                    [
+                                                        {
+                                                            "field": "field_61b335e9ea25f",
+                                                            "operator": "==",
+                                                            "value": "other"
+                                                        }
+                                                    ]
+                                                ],
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "default_value": "",
+                                                "placeholder": "Enter name of field",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "Add Content",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template-report.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_618b9eaab41fd",
+        "title": "Theme Options",
+        "fields": [
+            {
+                "key": "field_61b9edb3388ed",
+                "label": "Report Generator Options",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61aa790f375d8",
+                "label": "Form Groups",
+                "name": "form_groups",
+                "type": "repeater",
+                "instructions": "This is used to in the create page navigation.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_61aa7935375da",
+                        "label": "Button Label",
+                        "name": "button_label",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61aa7925375d9",
+                        "label": "Field ID",
+                        "name": "field_id",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_61b3402f529fb",
+                        "label": "Post ID",
+                        "name": "post_id",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "admin_only": 0,
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_61b9ed91388ec",
+                "label": "Report Options",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_61b9ed1465b1a",
+                "label": "Report Pages",
+                "name": "report_pages",
+                "type": "post_object",
+                "instructions": "This is a list of each page that makes up a complete report.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "page"
+                ],
+                "taxonomy": "",
+                "allow_null": 0,
+                "multiple": 1,
+                "return_format": "id",
+                "ui": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-general-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_624d964c1a687",
+        "title": "Reports - Building Doors",
+        "fields": [
+            {
+                "key": "field_624db857cd756",
+                "label": "Doors",
+                "name": "doors",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "progress-check",
+                    "id": "doors"
+                },
+                "collapsed": "field_624db8d521dda",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "Add Door",
+                "sub_fields": [
+                    {
+                        "key": "field_624db8d521dda",
+                        "label": "Type",
+                        "name": "type",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "door-type",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Entrance": "Entrance",
+                            "Vestibule": "Vestibule",
+                            "1st Floor Exits": "1st Floor Exits",
+                            "Basement Exit": "Basement Exit",
+                            "Exit Door": "Exit Door",
+                            "Roof Door": "Roof Door",
+                            "Stairway Door": "Stairway Door",
+                            "Stairway Door #2": "Stairway Door #2",
+                            "Service Elevator Lobby Door": "Service Elevator Lobby Door",
+                            "Passenger Elevator Lobby\/Vestibule Door": "Passenger Elevator Lobby\/Vestibule Door",
+                            "Boiler Room": "Boiler Room",
+                            "Laundry Room": "Laundry Room",
+                            "Elec Meter Rm": "Elec Meter Rm",
+                            "Gas Meter Room": "Gas Meter Room",
+                            "Compactor Room": "Compactor Room",
+                            "Chute Room": "Chute Room",
+                            "Elev Mach Rm": "Elev Mach Rm",
+                            "Pump Room": "Pump Room",
+                            "Sprinkler Control Valve Room": "Sprinkler Control Valve Room",
+                            "Garage": "Garage",
+                            "Fire\/Smoke Stop Door": "Fire\/Smoke Stop Door"
+                        },
+                        "default_value": false,
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_624f40b6588ba",
+                        "label": "Stairway Letter",
+                        "name": "stairway_letter",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db8d521dda",
+                                    "operator": "==",
+                                    "value": "Stairway Door"
+                                }
+                            ],
+                            [
+                                {
+                                    "field": "field_624db8d521dda",
+                                    "operator": "==",
+                                    "value": "Stairway Door #2"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "E": "E",
+                            "W": "W",
+                            "N": "N",
+                            "S": "S",
+                            "A": "A",
+                            "B": "B",
+                            "C": "C",
+                            "D": "D",
+                            "F": "F",
+                            "G": "G",
+                            "H": "H",
+                            "I": "I",
+                            "J": "J",
+                            "K": "K",
+                            "L": "L",
+                            "M": "M",
+                            "O": "O",
+                            "P": "P",
+                            "Q": "Q",
+                            "R": "R",
+                            "T": "T",
+                            "U": "U",
+                            "V": "V",
+                            "X": "X",
+                            "Y": "Y",
+                            "Z": "Z"
+                        },
+                        "default_value": false,
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_624f4079588b9",
+                        "label": "Stairway Floor",
+                        "name": "stairway_floor",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db8d521dda",
+                                    "operator": "==",
+                                    "value": "Stairway Door"
+                                }
+                            ],
+                            [
+                                {
+                                    "field": "field_624db8d521dda",
+                                    "operator": "==",
+                                    "value": "Stairway Door #2"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "1": "1",
+                            "2": "2",
+                            "3": "3",
+                            "4": "4",
+                            "5": "5",
+                            "6": "6",
+                            "7": "7",
+                            "8": "8",
+                            "9": "9",
+                            "10": "10",
+                            "11": "11",
+                            "12": "12",
+                            "13": "13",
+                            "14": "14",
+                            "15": "15",
+                            "16": "16",
+                            "17": "17",
+                            "18": "18",
+                            "19": "19",
+                            "20": "20",
+                            "21": "21",
+                            "22": "22",
+                            "23": "23",
+                            "24": "24",
+                            "25": "25",
+                            "26": "26",
+                            "27": "27",
+                            "28": "28",
+                            "29": "29",
+                            "30": "30",
+                            "31": "31",
+                            "32": "32",
+                            "33": "33",
+                            "34": "34",
+                            "35": "35",
+                            "36": "36",
+                            "37": "37",
+                            "38": "38",
+                            "39": "39",
+                            "40": "40",
+                            "41": "41",
+                            "42": "42",
+                            "43": "43",
+                            "44": "44",
+                            "45": "45",
+                            "46": "46",
+                            "47": "47",
+                            "48": "48",
+                            "49": "49",
+                            "50": "50",
+                            "Basement\/Cellar": "Basement\/Cellar",
+                            "Sub-Basement\/Cellar": "Sub-Basement\/Cellar",
+                            "Penthouse": "Penthouse",
+                            "Lower Level": "Lower Level"
+                        },
+                        "default_value": false,
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_624db8f821ddb",
+                        "label": "Door Location",
+                        "name": "door_location",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db8d521dda",
+                                    "operator": "!=",
+                                    "value": "Stairway Door"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_624db94021ddc",
+                        "label": "Self-Closing Required",
+                        "name": "self_closing_required",
+                        "type": "button_group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "self-closing-required",
+                            "id": ""
+                        },
+                        "choices": {
+                            "yes": "Yes",
+                            "no": "No"
+                        },
+                        "allow_null": 1,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_624db98221dde",
+                        "label": "Door Closer Type",
+                        "name": "door_closer_type",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "Spring Loaded Hinge": "Spring Loaded Hinge",
+                            "Actuating Arm": "Actuating Arm",
+                            "Spring": "Spring",
+                            "Counterbalance Door Closer": "Counterbalance Door Closer",
+                            "Other": "Other"
+                        },
+                        "default_value": false,
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_624f41d402b8e",
+                        "label": "Door Closer Other",
+                        "name": "door_closer_other",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db98221dde",
+                                    "operator": "==",
+                                    "value": "Other"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_624db9c521de0",
+                        "label": "Does self closing door operate properly",
+                        "name": "does_self_closing_door_operate_properly",
+                        "type": "button_group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "yes": "Yes",
+                            "no": "No"
+                        },
+                        "allow_null": 1,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_624db9e321de1",
+                        "label": "Deficiencies Found",
+                        "name": "deficiencies_found",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db9c521de0",
+                                    "operator": "==",
+                                    "value": "no"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "None": "None",
+                            "Device Broken": "Device Broken",
+                            "Dirt or Grease": "Dirt or Grease",
+                            "Door out of alignment": "Door out of alignment",
+                            "Door is not closing properly": "Door is not closing properly",
+                            "The Glass is missing from door": "The Glass is missing from door",
+                            "Door Latch has damaged or missing latching mechanism": "Door Latch has damaged or missing latching mechanism",
+                            "Other": "Other"
+                        },
+                        "default_value": false,
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_624f3e506b461",
+                        "label": "Deficiencies Other",
+                        "name": "deficiencies_other",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db9e321de1",
+                                    "operator": "==",
+                                    "value": "Other"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_624db96421ddd",
+                        "label": "Is FDNY Sign Required?",
+                        "name": "is_fdny_sign_required",
+                        "type": "button_group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "25",
+                            "class": "fdny-sign-required",
+                            "id": ""
+                        },
+                        "choices": {
+                            "yes": "Yes",
+                            "no": "No"
+                        },
+                        "allow_null": 1,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_624f4722d5968",
+                        "label": "Is FDNY Sign Present?",
+                        "name": "is_fdny_sign_present",
+                        "type": "button_group",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db96421ddd",
+                                    "operator": "==",
+                                    "value": "yes"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "yes": "Yes",
+                            "no": "No"
+                        },
+                        "allow_null": 1,
+                        "default_value": "",
+                        "layout": "horizontal",
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_624f38d045cbd",
+                        "label": "What required sign is missing?",
+                        "name": "what_is_the_required_sign",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db96421ddd",
+                                    "operator": "==",
+                                    "value": "yes"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "required-sign",
+                            "id": ""
+                        },
+                        "choices": {
+                            "None": "None",
+                            "EXIT": "EXIT",
+                            "IN A FIRE, CLOSE ALL DOORS BEHIND YOU!": "IN A FIRE, CLOSE ALL DOORS BEHIND YOU!",
+                            "STAIRWAY LETTER IS MISSING ON BOTH SIDES OF THE DOOR": "STAIRWAY LETTER IS MISSING ON BOTH SIDES OF THE DOOR",
+                            "EMERGENCY MARKINGS (if Bldg. not sprinklered)": "EMERGENCY MARKINGS (if Bldg. not sprinklered)",
+                            "STANDPIPE OUTLET (if Standpipe Riser in this Stairway)": "STANDPIPE OUTLET (if Standpipe Riser in this Stairway)",
+                            "BOILER ROOM": "BOILER ROOM",
+                            "IF LOCKED WHERE IS THE SPARE KEY KEPT": "IF LOCKED WHERE IS THE SPARE KEY KEPT",
+                            "ELECTRICAL METER ROOM - USE NO WATER - NO STORAGE PERMITTED": "ELECTRICAL METER ROOM - USE NO WATER - NO STORAGE PERMITTED",
+                            "GAS METER ROOM - NO STORAGE PERMITTED": "GAS METER ROOM - NO STORAGE PERMITTED",
+                            "COMPACTOR ROOM": "COMPACTOR ROOM",
+                            "WHAT IS PROHIBITIVE FROM CHUTE": "WHAT IS PROHIBITIVE FROM CHUTE",
+                            "ELEVATOR MACHINERY ROOM": "ELEVATOR MACHINERY ROOM",
+                            "FIRE PUMP ROOM": "FIRE PUMP ROOM",
+                            "GARAGE": "GARAGE",
+                            "LAUNDRY ROOM": "LAUNDRY ROOM",
+                            "FIRE STANDPIPE IN OTHER STAIRWELL": "FIRE STANDPIPE IN OTHER STAIRWELL",
+                            "STAIRWAY LETTER IS MISSING ON STAIR SIDE OF THE DOOR": "STAIRWAY LETTER IS MISSING ON STAIR SIDE OF THE DOOR",
+                            "STAIRWAY LETTER IS MISSING ON HALLWAY SIDE OF THE DOOR": "STAIRWAY LETTER IS MISSING ON HALLWAY SIDE OF THE DOOR",
+                            "FLOOR NUMBER IS MISSING FROM THE PUBLIC HALL NEAR THE STAIRS AND WITHIN THE STAIR ENCLOSURE.": "FLOOR NUMBER IS MISSING FROM THE PUBLIC HALL NEAR THE STAIRS AND WITHIN THE STAIR ENCLOSURE.",
+                            "FLOOR NUMBER IS MISSING FROM THE PUBLIC HALL NEAR THE STAIRS": "FLOOR NUMBER IS MISSING FROM THE PUBLIC HALL NEAR THE STAIRS",
+                            "FLOOR NUMBER IS MISSING WITHIN THE STAIR ENCLOSURE": "FLOOR NUMBER IS MISSING WITHIN THE STAIR ENCLOSURE"
+                        },
+                        "default_value": [],
+                        "allow_null": 1,
+                        "multiple": 1,
+                        "ui": 1,
+                        "ajax": 0,
+                        "return_format": "value",
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_624db9f221de2",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_6258614918ba4",
+                        "label": "Image Caption",
+                        "name": "image_caption",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_624db9f221de2",
+                                    "operator": "!=empty"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "maxlength": "",
+                        "rows": 2,
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_624d964c1be76",
+                "label": "Comments",
+                "name": "building_exterior_comments",
+                "type": "textarea",
+                "instructions": "Add any additional comments for this section here.  These comments will show in the report.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "br"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "reports"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_61aa536b4af61",
+        "title": "Reports - Building Exterior",
+        "fields": [
+            {
+                "key": "field_61ba20dc6376d",
+                "label": "Building Exterior Images",
+                "name": "building_exterior_images",
+                "type": "repeater",
+                "instructions": "Add any images you'd like to include in this section",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_61ba20dc6376e",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_61ba20dc6376f",
+                        "label": "Image Description",
+                        "name": "image_description",
+                        "type": "text",
+                        "instructions": "Add a description.  This will show beneath the image on the report",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_61f2e51e7f6af",
+                "label": "Comments",
+                "name": "building_exterior_comments",
+                "type": "textarea",
+                "instructions": "Add any additional comments for this section here.  These comments will show in the report.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 3,
+                "new_lines": "br"
+            },
+            {
+                "key": "field_61f2e4fb7f6ac",
+                "label": "Building Exterior Images",
+                "name": "building_exterior_images_2",
+                "type": "repeater",
+                "instructions": "Add any images you'd like to include in this section",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_61f2e4fb7f6ad",
+                        "label": "Image",
+                        "name": "image",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_61f2e4fb7f6ae",
+                        "label": "Image Description",
+                        "name": "image_description",
+                        "type": "text",
+                        "instructions": "Add a description.  This will show beneath the image on the report",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "reports"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

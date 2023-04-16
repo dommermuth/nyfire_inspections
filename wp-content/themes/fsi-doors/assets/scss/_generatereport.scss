@@ -1,0 +1,327 @@
+.rp-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0 0 0;
+    background-color: #fff;
+
+    h1 {
+        font-size: 1.5em;
+        margin-right: 20px;
+    }
+
+    a {
+        background-color: $red;
+        color: #FFFFFF;
+        padding: 6px 12px;
+        text-decoration: none;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+#response {
+    padding: 0 0 30px 0;
+}
+
+#buildings {
+    list-style: none;
+    border-collapse: collapse; /* changed from separate */
+    border: none;
+    width: 100%;
+
+    tr {
+
+        th {
+            text-align: left;
+            border-bottom: 1px solid $dark-gray;
+            margin-bottom: 6px !important;
+        }
+
+        td {
+            font-size: .875em;
+
+            .btn {
+                background-color: $red;
+                color: #FFFFFF;
+                padding: 4px 8px;
+                text-decoration: none;
+                text-align: center;
+                display: inline;
+                margin: 0;
+            }
+
+            .red {
+                color: $red;
+            }
+
+            .bold {
+                font-weight: 700;
+            }
+        }
+
+        th, td {
+            padding: 10px 5px;
+        }
+    }
+
+    tr:nth-child(even) {
+        background-color: $light-gray;
+    }
+
+    tr:hover {
+        color: #FFF;
+        background-color: $medium-gray;
+        span{
+            color: #FFF !important;
+        }
+    }
+}
+
+.hidden{
+    display:none;
+}
+
+.report-form {
+
+    p.description {
+        position: fixed;
+        top: 20px;
+        right: -344px;
+        font-size: .9em;
+        line-height: 1.2em !important;
+        width: 300px;
+        margin: 6px 0 0 0;
+        padding: 20px !important;
+        background-color: #000 !important;
+        color: #FFF !important;
+        box-shadow: 4px 4px 5px rgba(0,0,0,.5);
+        z-index: 110;
+    }
+
+    p.description:before {
+        font-family: 'Font Awesome 5';
+        content: "\f128";
+        font-weight: bold;
+        font-size: 9px;
+        color: #FFF;
+        background-color: $red;
+        border-radius: 50%;
+        width: 1.5em;
+        height: 1.5em;
+        line-height: 1.5em;
+        display: inline-block !important;
+        text-align: center;
+        margin: -2px 5px 0 0;
+        vertical-align: middle;
+        padding-right: 2px;
+    }
+
+    textarea{
+        height: auto !important;
+    }
+}
+
+#report-nav {
+
+    p.warning {
+        font-size: .875em;
+        color: $gold;
+        line-height: 1em;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    #lost-connection-container {
+        margin: 20px 0 0 0;
+
+        p.warning:before {
+            font-family: 'Font Awesome 5';
+            content: "!";
+            font-weight: bold;
+            font-size: 10px;
+            color: $gold;
+            background-color: $red;
+            border-radius: 50%;
+            width: 1.5em;
+            height: 1.5em;
+            line-height: 1.5em;
+            display: inline-block !important;
+            text-align: center;
+            margin: -2px 5px 0 0;
+            vertical-align: middle;
+        }
+    }
+}
+
+
+.form-tools {
+    margin: 30px auto;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @media screen and (min-width: 800px) {
+        flex-direction: row;
+    }
+
+    .left {
+        flex: 1;
+        padding: 20px 0;
+        background-color: $nyfiregray;
+
+        @media screen and (min-width: 800px) {
+            flex: 0 0 240px;
+            padding: 14px 14px 0 0;
+        }
+
+        .nav-button-container {
+            position: relative;
+
+            .progress-bar {
+                position: absolute;
+                width: 0;
+                height: 3px;
+                background-color: $gold;
+                bottom: 0;
+                left: 0;
+                transition: all .5s;
+            }
+        }
+
+        .nav-button, a.btn-view-pdf {
+            position: relative;
+            display: block;
+            margin: 0 0 0 0;
+            border-radius: 0;
+            padding: 10px 20px;
+            text-align: center;
+            border: none;
+            border-bottom: 2px solid #3a3e3d;
+            background-color: $medium-gray;
+            color: #FFF;
+            width: 100%;
+            cursor: pointer;
+            font-size: .875em;
+            transition: background-color .5s;
+        }
+
+        a.btn-view-pdf {
+            width: calc(100% - 40px);
+            background-color: #000;
+        }
+
+        .nav-button:hover, a.btn-view-pdf:hover, .active {
+            background-color: $black;
+        }
+
+        .section-complete {
+            background-color: $red;
+        }
+
+        .section-complete:before {
+            font-family: 'Font Awesome 5';
+            content: "\f00c";
+            font-weight: bold;
+            font-size: 10px;
+            color: $red;
+            background-color: $gold;
+            border-radius: 50%;
+            width: 1.5em;
+            height: 1.5em;
+            line-height: 1.5em;
+            text-align: center;
+            position: absolute;
+            margin: auto;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+        }
+    }
+
+    .right {
+        flex: 1;
+        padding: 0 0 40px 0;
+        background-color: #FFF;
+        margin: 0 0 20px 0;
+
+        @media screen and (min-width: 800px) {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 1.2em;
+            margin: 10px 10px 0 10px;
+            text-align: right;
+        }
+
+        .acf-field:first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        .acf-button-group label.selected {
+            border-color: $gold;
+            background-color: $gold;
+        }
+
+        .acf-field .acf-input > p.description {
+            margin-top: 10px;
+        }
+
+        .report-form {
+            padding: 10px 0 0 0;
+
+            h5 {
+                font-weight: 300;
+                margin: -28px 0 20px 12px;
+                line-height: 1em;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.acf-form-submit {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+
+    input {
+        color: $gold !important;
+        border: 2px solid $gold;
+        background-color: $black;
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+}
+
+#msg-container {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    width: 230px;
+    background-color: #3a3e3d;
+    z-index: 102;
+
+    .autosave-msg, #lost-connection-container {
+        font-size: .75em;
+
+        p {
+            font-weight: 300;
+            color: $white;
+            line-height: 1em;
+            padding: 0;
+            margin: 4px;
+        }
+    }
+}
+
+/* hide Update Report button */
+.acf-form-submit {
+    display: none;
+}

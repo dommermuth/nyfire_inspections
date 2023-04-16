@@ -1,0 +1,92 @@
+#pdf {
+    margin: 0px auto;
+    font-family: $gotham;
+    font-weight: 400;
+    font-size: 1.2em;
+
+    @media screen {
+        width: 1000px;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    ol {
+        li {
+            page-break-inside: avoid;
+            line-height: 1.2em;
+            margin: 0 0 10px 0;
+        }
+    }
+
+    p {
+        padding: 0;
+        margin: 0 0 4px 0;
+        line-height: 1.2em;
+        font-weight: 300;
+    }
+
+    .bold {
+        font-weight: 700;
+    }
+
+    .signature-table {
+        margin-top: 50px;
+
+        td img {
+            padding: 40px 0 0 0;
+        }
+    }
+
+    h5 {
+        page-break-after: avoid;
+    }
+
+    .letterhead {
+        max-width: 100%;
+        padding-bottom: 50px;
+        page-break-before: always;
+
+        h1 {
+            color: #C92127;
+            font-weight: 700;
+            font-size: 1.6em;
+            text-transform: uppercase;
+            margin: 0 0 10px 0;
+        }
+
+        h3 {
+            color: #C92127;
+            font-weight: 700;
+            font-size: 1.25em;
+            margin: 0 0 10px 0;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        p {
+            line-height: 1em;
+        }
+    }
+
+    .image-container {
+        border-bottom: 1px solid #808080;
+
+        .image {
+            width: 450px;
+            padding: 20px;
+            float: left;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .description {
+            }
+        }
+    }
+}

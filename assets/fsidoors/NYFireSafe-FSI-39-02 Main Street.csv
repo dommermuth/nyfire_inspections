@@ -1,0 +1,5 @@
+Address,"Date of Inspection",Door,"Door Location","Req. Self-Closing","Door Self-Closed Yes/No","Type on Self-Closing Device","Deficiencies Found","FDNY Sign Required  Yes/No","FDNY Sign Present Yes/No","Missing Required Sign","Image URL","Image Caption"
+"39-02 Main Street",01-28-2022,Entrance,"Main Entrance",yes,no,Spring,"Door is not closing properly",yes,no,"EXIT, GARAGE",https://inspections.nyfiresafe.com/doors/wp-content/uploads/sites/4/2022/04/Capture.png,"none given"
+"39-02 Main Street",01-28-2022,Vestibule,"Front of building",yes,yes,"Actuating Arm",none,yes,yes,EXIT,"no picture taken","none given"
+"39-02 Main Street",01-28-2022,"1st Floor Exits","Front of building",yes,yes,"Actuating Arm",none,yes,yes,EXIT,"no picture taken","none given"
+"39-02 Main Street",01-28-2022,"Basement Exit","East side",yes,no,"Actuating Arm","Device Broken",yes,no,EXIT,"no picture taken","none given"

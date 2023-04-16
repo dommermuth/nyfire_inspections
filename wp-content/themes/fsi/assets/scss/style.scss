@@ -1,0 +1,22 @@
+/******************************************************************
+	
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here is where you import
+all of your Sass files so they can compile into one
+CSS file. 
+
+******************************************************************/
+
+// Import custom mixins
+@import "mixins";
+
+// Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
+@import "settings";
+
+
+// Import your custom styles
+@import "main";
+@import "generatereport";
+@import "report";
+@import "pdf";

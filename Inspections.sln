@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "Inspections", "Inspections.phpproj", "{90555D16-6FD6-4594-A7D1-B28C90C2431D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90555D16-6FD6-4594-A7D1-B28C90C2431D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90555D16-6FD6-4594-A7D1-B28C90C2431D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90555D16-6FD6-4594-A7D1-B28C90C2431D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90555D16-6FD6-4594-A7D1-B28C90C2431D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BE12B1-5C24-4A8E-B86E-D77AE722ADCC}
+	EndGlobalSection
+EndGlobal
