@@ -31,7 +31,8 @@
 	$html_tmp .='<h5>'.$section_title.'</h5>';
 	//}
 
-	if(!$is_repeater && !$is_restaurant_or_hotel && !$is_retail && !empty($image_field) && have_rows($image_field, $pid) ){
+	if(!empty($image_field) && have_rows($image_field, $pid) ){
+	//if(!$is_repeater && !$is_restaurant_or_hotel && !$is_retail && !empty($image_field) && have_rows($image_field, $pid) ){
 
 			$html_tmp .= '<div class="image-container">';
 			while( have_rows($image_field, $pid) ) :
@@ -50,6 +51,7 @@
 
 	if($is_repeater && !empty($repeater_name) ) {
 
+		
 		$rest_rows = get_field($repeater_name, $pid);
 		$row_index = 0;
 

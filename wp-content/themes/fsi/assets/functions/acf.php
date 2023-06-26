@@ -349,6 +349,46 @@ function acf_load_report_field_choices_sprinkler_risers($field) {
 }
 add_filter('acf/load_field/name=fields_sprinkler_risers', 'acf_load_report_field_choices_sprinkler_risers');
 
+//Populate ACF select field 'fields' for fire pumps'
+function acf_load_report_field_choices_fire_pumps($field) {
+	    // reset choices
+    $field['choices'] = array();
+	$field['choices'][ 0 ] = "Select Fire Pump Attribute";
+	if( have_rows("form_groups","options") ):
+		
+		while( have_rows("form_groups","options") ) :
+			the_row();
+			
+			$post_id = get_sub_field('post_id');
+			$fields = acf_get_fields( $post_id );
+
+			foreach ( $fields as $f ) {
+				$field_name = $f['name'];
+				
+				if($field_name == "fire_pumps"){
+
+					$field_keys = [["fire_pumps", "field_649490d911bcb"]];
+					$key =  array_column($field_keys, $field_name);
+					$fields2 = get_field_object("field_649490d911bcb",  $post_id);
+
+					foreach ($fields2["sub_fields"] as $subfields){
+							$nme = $subfields["name"];
+							$field['choices'][ $nme ] = $nme;
+					}
+				}
+			}
+
+		endwhile;
+		// No value.
+	else :
+		// Do something...
+		echo "No Form Groups found";
+	endif;
+
+    return $field;
+}
+add_filter('acf/load_field/name=fields_fire_pumps', 'acf_load_report_field_choices_fire_pumps');
+
 //Populate ACF select field 'fields' for restaurants and hotels'
 function acf_load_report_field_choices_rest_hotel($field) {
 	    // reset choices
